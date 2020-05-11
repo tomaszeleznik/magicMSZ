@@ -1,0 +1,12 @@
+@tree_icon-icons-admin__font-name-path: '@{baseDir}fonts/Tree-icon/tree_icon';
+@tree_icon-icons-admin__font-name : 'TreeIcon';
+.lib-font-face(
+    @family-name:@tree_icon-icons-admin__font-name,
+    @font-path: @tree_icon-icons-admin__font-name-path,
+    @font-weight: normal,
+    @font-style: normal
+);
+.admin__menu .item-msz.parent.level-0 > a:before {
+    font-family: @tree_icon-icons-admin__font-name;
+    content: "\e9bc";
+}

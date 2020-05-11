@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Z3_Magicmsz::msz" title="MSZ" translate="title" module="Z3_Magicmsz" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="Z3_Magicmsz" resource="Z3_Magicmsz::msz"/>
+        <add id="Z3_Magicmsz::msz" title="MSZ" translate="title" module="Z3_Magicmsz" sortOrder="20" dependsOnModule="Z3_Magicmsz" resource="Z3_Magicmsz::msz"/>
         <add id="Z3_Magicmsz::msz_input" title="Input" translate="title" module="Z3_Magicmsz" parent="Z3_Magicmsz::msz" sortOrder="10" dependsOnModule="Z3_Magicmsz" action="magicmsz/input" resource="Z3_Magicmsz::msz"/>
     </menu>
 </config>
