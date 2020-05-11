@@ -3,5 +3,8 @@
     <menu>
         <add id="Z3_Magicmsz::msz" title="MSZ" translate="title" module="Z3_Magicmsz" sortOrder="20" dependsOnModule="Z3_Magicmsz" resource="Z3_Magicmsz::msz"/>
         <add id="Z3_Magicmsz::msz_input" title="Input" translate="title" module="Z3_Magicmsz" parent="Z3_Magicmsz::msz" sortOrder="10" dependsOnModule="Z3_Magicmsz" action="magicmsz/input" resource="Z3_Magicmsz::msz"/>
+        <add id="Z3_Magicmsz::msz_cron" title="Cron" translate="title" module="Z3_Magicmsz" parent="Z3_Magicmsz::msz" sortOrder="20" dependsOnModule="Z3_Magicmsz" action="magicmsz/cron" resource="Z3_Magicmsz::msz"/>
+        <add id="Z3_Magicmsz::msz_rules" title="Rules" translate="title" module="Z3_Magicmsz" parent="Z3_Magicmsz::msz" sortOrder="30" dependsOnModule="Z3_Magicmsz" action="magicmsz/rules" resource="Z3_Magicmsz::msz"/>
+        <add id="Z3_Magicmsz::msz_report" title="Reports" translate="title" module="Z3_Magicmsz" parent="Z3_Magicmsz::msz" sortOrder="40" dependsOnModule="Z3_Magicmsz" action="magicmsz/report" resource="Z3_Magicmsz::msz"/>
     </menu>
 </config>
